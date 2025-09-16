@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+  background-color: #00b4d8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  width: 100%;
+  padding: 30px 0 10px 0;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header h2 {
+  margin: 0;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.App-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+
+}
+.top-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12rem;
+  padding: 40px 30px;
+  border-radius: 12px;
+  min-width: 300px;
+}
+.stages-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.stage-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 140px;
+ 
+}
+
+.stage-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.stage-column h4 {
+  margin: 8px 0 4px 0;
+  font-size: 0.8rem;
+}
+
+.stage-column p {
+  margin: 0;
+  color: #333;
+  font-size: 0.98rem;
+  text-align: center;
+}
+.predict-btn {
+  
+ 
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.05rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+}
+
+.predict-btn:disabled {
+  background: #b7efc5;
+  cursor: not-allowed;
+}
+
+.predict-btn:hover:enabled {
+  background: #008000;
+}
+
+.choose-btn {
+  background: #00b4d8;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.05rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+}
+
+.choose-btn:hover {
+  background: #0077b6;
+}
+
+.illustration {
+ 
+  max-width: 400px;
+  max-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 12px;
+  
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  background: #48cae4;
+  padding: 40px 30px;
+  border-radius: 12px;
+  min-width: 220px;
+  min-height: 120px;
+}
+
+.placeholder {
+  color: #888;
+  font-size: 1.2rem;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+button {
+  background: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #023e8a;
+}
